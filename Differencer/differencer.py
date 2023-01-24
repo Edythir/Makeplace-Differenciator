@@ -139,10 +139,10 @@ debug.append(('Full list of items to be purchased:\n\n'+str(list3)+'\n\n'))
 
 # Write to file
 
-#f = open('Purchase List.txt', 'w', errors='ignore')
-#for x in list3:
-#    f.write(x)
-#f.close()
+f = open('Purchase List.txt', 'w', errors='ignore')
+for x in list3:
+    f.write(x)
+f.close()
 
 f = open('debug.txt', 'w', errors='ignore')
 for x in debug:
